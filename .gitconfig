@@ -1,0 +1,13 @@
+[user]
+	name = Philip Alegret
+	email = philip.alegret@gmail.com
+[fetch]
+	prune = true
+[alias]
+	lol = log --pretty=format:\"%C(auto)%h%d%Creset %C(cyan)(%ci)%Creset %C(green)%cn %Creset %s\" --date=short
+	cl = clone 
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
