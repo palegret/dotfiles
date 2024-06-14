@@ -13,6 +13,6 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/.dircolors`
 
 # Some custom aliases.
-alias cls='clear'"
-alias dir='ls -alF'"
-alias dirt='cls && dir'"
+alias cls="clear"
+alias dir="ls -alF"
+alias dirt="cls && dir"
